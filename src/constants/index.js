@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a recent Computer Engineering graduate with a strong passion for Software Development. Specializing in the MERN stack (MongoDB, Express.js, React, Node.js), I also have proficiency in HTML, CSS, JavaScript, and MySQL. My solid foundation in both front-end and back-end technologies equips me to develop scalable, high-performance web applications and create responsive, visually appealing user interfaces. Skilled in GitHub for version control and collaboration, I am eager to apply my diverse skill set to real-world projects and am committed to continuous learning. Excited to contribute to an innovative team.`;
+export const HERO_CONTENT = `I am a recent Computer Engineering graduate with a deep passion for Software Development, particularly in the MERN stack. With solid skills in HTML, CSS, JavaScript, and MySQL, I'm eager to bring my diverse expertise to real-world challenges. I'm committed to ongoing learning and enthusiastic about joining an innovative team.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a recent graduate with a Bachelor of Engineering in Computer Engineering, passionate about software development and specializing in the MERN stack. With a strong foundation in both front-end and back-end technologies, I excel in building scalable, high-performance web applications and crafting responsive, visually appealing user interfaces. My experience spans across various projects, where I’ve demonstrated my expertise in HTML, CSS, JavaScript, and MySQL, along with proficient use of GitHub for version control and collaboration. I am eager to apply my diverse skill set to real-world challenges, continually learn new technologies, and contribute to innovative teams.`;
 
 export const EXPERIENCES = [
   {
@@ -40,37 +40,35 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "CyberShop",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A dynamic e-commerce platform facilitating seamless transactions between buyers and sellers with a primary focus on the backend architecture. Actively spearheaded the creation of user registration and login pages, implementing secure authentication and authorization mechanisms.",
+    technologies: ["NodeJS", "ExpressJS", "React", "MongoDB", "Bootstrap"],
+    link: "https://github.com/nikhil-nooli/Cybershop", 
   },
   {
-    title: "Task Management App",
+    title: "Video Calling Web Application",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Developed a real-time, one-on-one video calling application using Zegocloud API, React, and Vite. Implemented a responsive UI and ensured seamless video communication, leveraging modern web development practices.",
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Vite"],
+    link: "https://github.com/nikhil-nooli/Video_Call_App", 
   },
   {
-    title: "Portfolio Website",
+    title: "Library Catalogue Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+      "Developed a library catalogue system displaying a comprehensive list of books along with their authors, streamlining resource management for easy reference. It enables users to find books by name, author, or publisher.",
+    technologies: ["HTML", "CSS", "JavaScript", "NodeJS", "MySQL"],
+    link: "https://github.com/nikhil-nooli/Library_Catalogue", 
+  }
 ];
 
+
+
 export const CONTACT = {
-  address: "Mumbai, Maharashtra, India ",
+  address: "Mumbai, Maharashtra",
   phoneNo: "+91 7821082043 ",
   email: "nikhilnooli007@gmail.com",
 };
