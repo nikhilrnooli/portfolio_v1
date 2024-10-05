@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a recent Computer Engineering graduate with a deep passion for Software Development, particularly in the MERN stack. With solid skills in HTML, CSS, JavaScript, and MySQL, I'm eager to bring my diverse expertise to real-world challenges. I'm committed to ongoing learning and enthusiastic about joining an innovative team.`;
+export const HERO_CONTENT = `Recent Computer Engineering graduate passionate about software development, skilled in the MERN stack, and eager to tackle real-world challenges with a commitment to continuous learning.`;
 
-export const ABOUT_TEXT = `I am a recent graduate with a Bachelor of Engineering in Computer Engineering, passionate about software development and specializing in the MERN stack. With a strong foundation in both front-end and back-end technologies, I excel in building scalable, high-performance web applications and crafting responsive, visually appealing user interfaces. My experience spans across various projects, where I’ve demonstrated my expertise in HTML, CSS, JavaScript, and MySQL, along with proficient use of GitHub for version control and collaboration. I am eager to apply my diverse skill set to real-world challenges, continually learn new technologies, and contribute to innovative teams.`;
+export const ABOUT_TEXT = `I'm a Computer Engineering graduate with expertise in the MERN stack, combining front-end and back-end technologies to build scalable, high-performance web applications. My experience includes developing responsive, visually engaging user interfaces using HTML, CSS, JavaScript, MongoDB, and MySQL. With a strong foundation in GitHub collaboration, I'm always eager to learn new tools and bring creative solutions to innovative teams.`;
 
 export const EXPERIENCES = [
   {

@@ -5,6 +5,7 @@ import Technologies from "./components/Technologies";
 import Projects  from "./components/Projects";
 import Contact  from "./components/Contact";
 
+
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cy300 selection:text-cy-900">
@@ -19,6 +20,7 @@ const App = () => {
          <Technologies />
          <Projects />
          <Contact />
+         
       </div>
     </div>
   );
