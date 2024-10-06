@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+//import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `Recent Computer Engineering graduate passionate about software development, skilled in the MERN stack, and eager to tackle real-world challenges with a commitment to continuous learning.`;
 
@@ -69,6 +69,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Mumbai, Maharashtra",
-  phoneNo: "+91 7821082043 ",
-  email: "nikhilnooli007@gmail.com",
+  //phoneNo: "+91 7821082043 ",
+  email: "nikhilrnooli@gmail.com",
 };
